@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(./image/3d-img2.jpg) center center;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 5rem auto;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    text-align: center;
+    font-size: 2rem;
+}
+label{
+    font-size: 1.4rem;
+}
